@@ -1,41 +1,73 @@
-IP - IP Address Scanner Tool
-IP is a Termux-compatible tool designed for scanning and retrieving detailed information about IPv4 and IPv6 addresses. It provides a colorized output of IP details and allows for easy result management and tool updates.
+#🚀 IP Scanner Tool
+Welcome to the IP Scanner Tool! This handy Bash script lets you uncover detailed information about any IPv4 or IPv6 address with ease. Whether you're a network administrator, a security enthusiast, or just curious about IPs, this tool has got you covered!
 
-Features
-Scan IPv4 and IPv6: Get comprehensive details of both types of IP addresses.
-Colorized Output: Enjoy a visually appealing and easy-to-read format.
-Result Saving: Automatically saves scan results to a directory.
+@🛠 Features
+🔍 IP Address Details: Get comprehensive information about IP addresses, including location, organization, timezone, and more.
+🎨 Beautiful Banners: Enjoy a colorful banner with dynamic effects using figlet and lolcat.
+⚙️ Easy Updates & Removal: Easily update or remove the tool with built-in options.
+💾 Save Results: Automatically save your scan results to neatly organized files in your home directory.
+📥 Installation
+Prepare Your System:
 
-Installation
+Ensure you have figlet and Python3 with the requests module installed. You can install them with the following commands:
+
+bash
+Copy code
+pkg install figlet -y
+pip3 install requests
 Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/IP.git
-# Permanent Use 
-Move the Script to Termux’s Bin Directory:
-
-bash
-Copy code
-cp IP/ip.sh /data/data/com.termux/files/usr/bin/ip
+git clone <repository_url>
+cd <repository_directory>
 Make the Script Executable:
 
 bash
 Copy code
-chmod +x /data/data/com.termux/files/usr/bin/ip
-Usage
-Launch the Tool: Type ip in your Termux terminal.
-Main Menu Options:
-Scan IPv4
-Scan IPv6
-Update Tool
-Remove Tool
-Exit
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+chmod +x ip.sh
+Run the Script:
 
-Author
+bash
+Copy code
+./ip.sh
+🛠 Usage
+Once you’ve launched the script, you’ll be greeted with a vibrant banner and the main menu. Choose from the following options:
+
+🔍 Scan IPv4/IPv6: Enter an IP address to fetch its details.
+⬆️ Update Tool: Simulate an update process with a visual progress bar.
+🗑 Remove Tool: Completely remove the tool from your system.
+❌ Exit: Close the script.
+🎨 Screenshot
+Here’s a sneak peek of the IP Scanner Tool in action:
+![image](https://github.com/user-attachments/assets/9091b40b-2abb-4f53-ace3-a915996f481f)
+
+
+📚 Example Output
+When you scan an IP, you'll see detailed information like this:
+
+yaml
+Copy code
+--- IP Address Details ---
+IP Address: 8.8.8.8
+Hostname: dns.google
+City: Mountain View
+Region: California
+Country: US
+Location: 37.4056,-122.0775
+Organization: Google LLC
+Postal Code: 94043
+Timezone: America/Los_Angeles
+Anycast: No
+Carrier: N/A
+Internet ID: AS15169
+----------------------------
+🚀 How to Contribute
+Feel free to fork the repository and submit pull requests! If you find any bugs or have feature requests, open an issue to let us know.
+
+📜 License
+This script is provided as-is. No warranties or guarantees are provided. Use at your own risk.
+
+👨‍💻 Author
 Lokesh Kumar
-
-Contributing
-Feel free to open issues or submit pull requests if you have suggestions or improvements.
+GitHub Profile
