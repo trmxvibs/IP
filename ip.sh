@@ -32,9 +32,9 @@ install_requests() {
 # Function to print a colorized banner using figlet
 print_banner() {
     clear
-    figlet -c "IP Scanner Tool"
-    echo -e "${WHITE}Version 1.0.1${RESET}" | tee >(head -n 1) >(tail -n +2)
-    echo -e "${WHITE}Lokesh Kumar${RESET}" | tee >(head -n 1) >(tail -n +2)
+    figlet -c "IP Scanner Tool"    | lolcat 
+    echo -e "${WHITE}Version 1.0.1${RESET}" | tee >(head -n 1) >(tail -n +1)
+    echo -e "${WHITE}Lokesh Kumar${RESET}" | tee >(head -n 1) >(tail -n +1)
 }
 
 # Function to fetch IP details using Python
@@ -141,6 +141,7 @@ main_menu() {
                 update_tool
                 ;;
             4)
+rm -rf IP
                 remove_tool
                 exit 0
                 ;;
