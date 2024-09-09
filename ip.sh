@@ -1,5 +1,11 @@
 #!/bin/bash
-
+#tool made by Lokesh Kumar
+# Function to update & upgrade 
+apt-get update -y
+apt-get upgrade -y
+pkg install -y python python2 python3 curl wget openssl
+pip install lolcat
+clear
 # ANSI color codes for colorizing the output
 RED="\033[91m"
 GREEN="\033[92m"
