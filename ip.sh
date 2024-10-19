@@ -39,8 +39,8 @@ install_requests() {
 print_banner() {
     clear
     figlet -c "IP Scanner Tool"    | lolcat 
-    echo -e "${WHITE}Version 1.0.1${RESET}" | tee >(head -n 1) >(tail -n +1)
-    echo -e "${WHITE}Lokesh Kumar${RESET}" | tee >(head -n 1) >(tail -n +1)
+    echo -e "Version 1.0.1 " | lolcat
+    echo -e "Lokesh Kumar " | lolcat
 }
 
 # Function to fetch IP details using Python
@@ -171,4 +171,5 @@ main() {
 }
 
 # Execute the main function
+print_banner
 main
