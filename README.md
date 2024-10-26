@@ -1,6 +1,8 @@
 # 🚀 IP Scanner Tool
-***version 1.0.1***
-![image](https://github.com/user-attachments/assets/9091b40b-2abb-4f53-ace3-a915996f481f)
+***version 2.0***
+
+![image](https://github.com/user-attachments/assets/991d50d6-22b5-4065-9c1e-798ec8cd50f3)
+
 
 Welcome to the IP Scanner Tool! This handy Bash script lets you uncover detailed information about any IPv4 or IPv6 address with ease. Whether you're a network administrator, a security enthusiast, or just curious about IPs, this tool has got you covered!
 
@@ -12,8 +14,8 @@ Welcome to the IP Scanner Tool! This handy Bash script lets you uncover detailed
 
 **💾 Save Results:** Automatically save your scan results to neatly organized files in your home directory.
 
-# My other videos on Youtube
-[![WhatsApp Hacking](https://img.youtube.com/vi/JMCTjlqS5Oc/maxresdefault.jpg)](https://youtu.be/JMCTjlqS5Oc)
+
+
 
 
 
@@ -32,51 +34,57 @@ git clone https://github.com/trmxvibs/IP && cd IP
 ```
 **Make the Script Executable:**
 ```bash
-chmod +x ip.sh
+chmod +x * 
 ```
 **Run the Script:**
 ```bash
-./ip.sh
+./file.sh.x
 ```
-# *OR*
-```
-bash ip.sh
-```
+
  # 🛠 Usage
 
 **🔍 Scan IPv4/IPv6:**  Enter an IP address to fetch its details.
 
 **⬆️ Update Tool:** Simulate an update process with a visual progress bar.
 
-**🗑 Remove Tool:** Completely remove the tool from your system.
-
 **❌ Exit:** Close the script.
 
 # 🎨 Screenshot
-Here’s a sneak peek of the IP Scanner Tool in action:
+## Here’s a sneak peek of the IP Scanner Tool in action:
 
-![image](https://github.com/user-attachments/assets/c9f45790-9ed9-4e23-9765-3bafe4612454)
+![image](https://github.com/user-attachments/assets/4fdc1993-324e-4ae6-880d-0b91416a20c3)
 
-
-
-📚 Example Output
-When you scan an IP, you'll see detailed information like this:
+# Bulk Scaning
+**Save your ip in txt format choose option 2 and give file path and name**
+## Example:
 
 ```bash
---- IP Address Details ---
-IP Address: 8.8.8.8
-Hostname: dns.google
-City: Mountain View
-Region: California
-Country: US
-Location: 37.4056,-122.0775
-Organization: Google LLC
-Postal Code: 94043
-Timezone: America/Los_Angeles
-Anycast: No
-Carrier: N/A
-Internet ID: AS15169
-----------------------------
+8.8.8.8
+142.250.192.14
+163.70.143.174
+163.70.143.35
+98.137.11.163
+```
+
+
+
+
+ # 📚 Example Output
+## When you scan an IP, you'll see detailed information like this:
+**Here is an Example of scaning google ip.**
+```markdown
+=== IP Information ===
+ip: 8.8.8.8
+hostname: dns.google
+anycast: True
+city: Mountain View
+region: California
+country: US
+loc: 37.4056,-122.0775
+org: AS15169 Google LLC
+postal: 94043
+timezone: America/Los_Angeles
+
 ```
 
 # 🚀 How to Contribute
