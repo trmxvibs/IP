@@ -30,7 +30,7 @@ Ensure you have `figlet` and `Python3` with the `requests` module installed. You
 pkg install -y python python2 python3 && pkg install figlet -y && pip3 install requests
 ```
 ```bash
-git clone https://github.com/trmxvibs/IP && cd IP
+git clone https://github.com/trmxvibs/IP-tracker && cd IP-tracker
 ```
 **Make the Script Executable:**
 ```bash
@@ -55,7 +55,7 @@ chmod +x *
 ![image](https://github.com/user-attachments/assets/4fdc1993-324e-4ae6-880d-0b91416a20c3)
 
 # Bulk Scaning
-**Save your ip in txt format choose option 2 and give file path and name**
+**Save your ip in txt format choose option 2 and give file path and name.**
 ## Example:
 
 ```bash
